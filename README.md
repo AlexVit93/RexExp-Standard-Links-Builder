@@ -14,6 +14,8 @@ This project is a simple web-based tool that allows users to generate regular ex
 - Easy-to-use interface with a clean design.
 - Supports multiline input.
 
+---
+
 ## How to Use
 
 1. Enter full URLs into the input box (one per line).
@@ -39,11 +41,15 @@ Example Output:
 
 ```
 
+---
+
 ## Technologies Used
 
 - **HTML5**: Markup structure.
 - **CSS3**: Styling and layout.
 - **JavaScript**: Logic for extracting paths and generating regex.
+
+---
 
 ## Installation
 
