@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/favicon.webp" type="image/png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>RexExp Standard Links Builder</title>
+  </head>
+  <body>
+    <h1>
+      A constructor for creating regular <br />expressions from standard URLs
+    </h1>
+    <p>Enter paths you want to exclude (one per line):</p>
+    <textarea
+      id="inputPaths"
+      placeholder="e. g. https://mysites.com/page1/"
+    ></textarea>
+    <br />
+
+    <button onclick="generateRegex()">Generate Regex</button>
+    <div class="output" id="output"></div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
